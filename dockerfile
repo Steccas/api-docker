@@ -5,8 +5,10 @@ FROM node:fermium-alpine
 
 WORKDIR /usr/src/api
 
+# Install dependencies
+RUN apk update && apk add grep curl python3 make
+
 # Download release and unpack
-RUN apk update && apk add grep curl
 RUN XBROWSERSYNC_API_VERSION="$(curl --silent "https://api.github.com/repos/xbrowsersync/api/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")')" \ 
 	&& echo $XBROWSERSYNC_API_VERSION \
 	&& wget -q -O release.tar.gz https://github.com/xBrowserSync/api/archive/$XBROWSERSYNC_API_VERSION.tar.gz \
@@ -16,8 +18,7 @@ RUN XBROWSERSYNC_API_VERSION="$(curl --silent "https://api.github.com/repos/xbro
 	&& mv api-$XBROWSERSYNC_API_VERSION/* . \
 	&& rm -rf api-$XBROWSERSYNC_API_VERSION/
 
-# Install dependencies
-RUN apk add python2 python3 make
+# Install npm
 RUN npm install --only=production
 
 # Expose port and start api
