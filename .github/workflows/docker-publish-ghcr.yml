@@ -5,11 +5,6 @@ name: Docker
 # separate terms of service, privacy policy, and support
 # documentation.
 
-on:
-  release:
-    types: [published]
-    tags:
-      - 'v*'
   # schedule:
   #   - cron: '39 15 * * *'
   # push:
@@ -18,6 +13,13 @@ on:
   #   tags: [ 'v*.*.*' ]
   # pull_request:
   #   branches: [ master ]
+
+
+on:
+  release:
+    types: [published]
+    tags:
+      - 'v*'
 
 env:
   # Use docker.io for Docker Hub if empty
