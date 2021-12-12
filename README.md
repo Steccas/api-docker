@@ -10,6 +10,7 @@ I made it to simplify my personal deployment and fit my personal needs.
 - [dockerfile](dockerfile) will get latest version of [xBrowserSync API](https://github.com/xbrowsersync/api)
 - [docker-compose.yml](docker-compose.yml) will fetch latest version of the image.
 - Removed caddy, so you can integrate the containers with an existing proxy like Traefik or Jwilder's proxy.
+- ARM Support
 
 ## Running a production-ready service
 
