@@ -1,4 +1,4 @@
-# xBrowserSync-clean-docker
+# xBrowserSync-docker-custom
 ## xBrowserSync API for Docker
 
 Hi, this is custom version of the [official xBrowserSync Docker](https://github.com/xbrowsersync/api-docker).
