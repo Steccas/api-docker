@@ -29,7 +29,7 @@ services:
       timeout: "10s"
       retries: "5"
       start_period: "30s"
-    image: "xbrowsersync/api:latest"
+    image: "steccas/xbs-api:latest"
     restart: "unless-stopped"
     volumes:
       - "./settings.json:/usr/src/api/config/settings.json"
