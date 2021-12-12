@@ -6,6 +6,8 @@ name: Docker2
 # documentation.
 
 on:
+  schedule:
+    - cron: '39 15 * * *'
   release:
     types: [published]
     tags:
