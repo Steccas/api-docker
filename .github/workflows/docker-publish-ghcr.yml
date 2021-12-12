@@ -8,6 +8,8 @@ name: Docker
 on:
   release:
     types: [published]
+    tags:
+      - 'v*'
   # schedule:
   #   - cron: '39 15 * * *'
   # push:
