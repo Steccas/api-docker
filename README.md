@@ -60,9 +60,10 @@ Any contributions you make are **greatly appreciated**.
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-You can also consider to help with a donation ❤️
+You can also consider to help with a donation and checking my links ❤️
 <br>
-
+<a href="https://linktr.ee/steccas"><img alt="check!" src="https://img.shields.io/badge/check-offers-green?style=for-the-badge&logo=linktree">
+</a>
 <a href="https://github.com/sponsors/Steccas" target="_blank">
     <img src="https://img.shields.io/badge/sponsor-%23F5F5F5.svg?&style=for-the-badge&logo=github&logoColor=pink" alt="GitHub Sponsor">
 </a>
