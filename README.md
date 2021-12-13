@@ -5,9 +5,9 @@ Hi, this is custom version of the [official xBrowserSync Docker](https://github.
 I made it to simplify my personal deployment and fit my personal needs.
 
 ## Changes made
-- In progress: [healthcheck.js](healthcheck.js) and [settings.json](settings.json) are going to be copied inside the container by the [dockerfile](dockerfile); so it will not longer be necessary to be mounted as volumes in [docker-compose.yml](docker-compose.yml) unless needed.
+- [healthcheck.js](healthcheck.js) and [settings.json](settings.json) are going to be copied inside the container by the [dockerfile](dockerfile); so it will not longer be necessary to be mounted as volumes in [docker-compose.yml](docker-compose.yml) unless needed.
 - [dockerfile](dockerfile) will build from latest alpine
-- [dockerfile](dockerfile) will get latest version of [xBrowserSync API](https://github.com/xbrowsersync/api)
+- [dockerfile](dockerfile) will get latest version of [xBrowserSync API](https://github.com/xbrowsersync/api), CI/CD Will keep the image build fresh, so the API in use will always be updated if you use systems like watchtower.
 - [docker-compose.yml](docker-compose.yml) will fetch latest version of the image.
 - Removed caddy, so you can integrate the containers with an existing proxy like Traefik or Jwilder's proxy.
 - ARM Support
