@@ -1,5 +1,4 @@
-# xBrowserSync-docker-custom
-## xBrowserSync API for Docker
+# xBrowserSync API for Docker customized
 
 Hi, this is custom version of the [official xBrowserSync Docker](https://github.com/xbrowsersync/api-docker).
 I made it to simplify my personal deployment and fit my personal needs.
