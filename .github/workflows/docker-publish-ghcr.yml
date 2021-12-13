@@ -5,8 +5,7 @@ name: Docker
 # separate terms of service, privacy policy, and support
 # documentation.
 
-  # schedule:
-  #   - cron: '39 15 * * *'
+
   # push:
   #   branches: [ master ]
   #   # Publish semver tags as releases.
@@ -20,6 +19,8 @@ on:
     types: [published]
     tags:
       - 'v*'
+  schedule:
+    - cron: '39 15 * * *'
 
 env:
   # Use docker.io for Docker Hub if empty

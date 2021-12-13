@@ -18,6 +18,10 @@ RUN XBROWSERSYNC_API_VERSION="$(curl --silent "https://api.github.com/repos/xbro
 	&& mv api-$XBROWSERSYNC_API_VERSION/* . \
 	&& rm -rf api-$XBROWSERSYNC_API_VERSION/
 
+# Copy necessary files
+COPY healthcheck.js /usr/src/api/
+COPY settings.json /usr/src/api/config/
+
 # Install npm
 RUN npm install --only=production
 
