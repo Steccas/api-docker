@@ -1,3 +1,37 @@
+<p align="center">
+  <a href="https://github.com/Steccas/xbs-api-docker/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Steccas/xbs-api-docker.svg?style=for-the-badge">
+  </a>
+  <a href="https://github.com/Steccas/xbs-api-docker/network/members"><img src="https://img.shields.io/github/forks/Steccas/xbs-api-docker.svg?style=for-the-badge"></a>
+  <a href="https://github.com/Steccas/xbs-api-docker/issues">
+      <img src="https://img.shields.io/github/issues/Steccas/xbs-api-docker.svg?style=for-the-badge">
+  </a>
+  <a href="https://github.com/Steccas/xbs-api-docker/issues">
+      <img src="https://img.shields.io/github/issues-closed/Steccas/xbs-api-docker.svg?style=for-the-badge">
+  </a>
+  <a href="https://github.com/Steccas/xbs-api-docker/stargazers">
+    <img src="https://img.shields.io/github/stars/Steccas/xbs-api-docker.svg?style=for-the-badge">
+  </a>
+  <a href="https://GitHub.com/Steccas/xbs-api-docker/pull">
+    <img src="https://img.shields.io/github/issues-pr/Steccas/xbs-api-docker.svg?style=for-the-badge">
+  </a>
+  <a href="https://GitHub.com/Steccas/xbs-api-docker/pull">
+    <img src="https://img.shields.io/github/issues-pr-closed/Steccas/xbs-api-docker.svg?style=for-the-badge">
+  </a>
+  <a href="https://GitHub.com/Steccas/xbs-api-docker/commit">
+    <img src="https://img.shields.io/github/last-commit/Steccas/xbs-api-docker.svg?style=for-the-badge">
+  </a>
+  <a href="https://GitHub.com/Steccas/xbs-api-docker">
+    <img src="https://img.shields.io/github/repo-size/Steccas/xbs-api-docker.svg?style=for-the-badge">
+  </a>
+  <a href="https://linkedin.com/in/lucasteccanella">
+    <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555">
+  </a>
+  <a href="https://www.buymeacoffee.com/steccas" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/lato-yellow.png" alt="Buy Me A Coffee" height="27.8">
+  </a>
+</p>
+
 # xBrowserSync API for Docker customized
 
 Hi, this is custom version of the [official xBrowserSync Docker](https://github.com/xbrowsersync/api-docker).
