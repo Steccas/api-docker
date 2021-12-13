@@ -21,6 +21,7 @@ on:
       - 'v*'
   schedule:
     - cron: '39 15 * * *'
+  workflow_dispatch:
 
 env:
   # Use docker.io for Docker Hub if empty
@@ -82,6 +83,7 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          platforms: linux/arm/v7,linux/arm64,linux/amd64
 
       # Sign the resulting Docker image digest except on PRs and private repos
       # The keyless signing process records signatures on the Rekor public
