@@ -25,10 +25,10 @@
     <img src="https://img.shields.io/github/repo-size/Steccas/xbs-api-docker.svg?style=for-the-badge">
   </a>
   <a href="https://GitHub.com/Steccas/xbs-api-docker">
-    <img src="https://img.shields.io/github/workflow/status/Steccas/xbs-api-docker/docker.svg?style=for-the-badge">
+    <img src="https://img.shields.io/github/workflow/status/Steccas/xbs-api-docker/Docker.svg?style=for-the-badge">
   </a>
   <a href="https://GitHub.com/Steccas/xbs-api-docker">
-    <img src="https://img.shields.io/github/workflow/status/Steccas/xbs-api-docker/docker2.svg?style=for-the-badge">
+    <img src="https://img.shields.io/github/workflow/status/Steccas/xbs-api-docker/Docker2.svg?style=for-the-badge">
   </a>
   <a href="https://linkedin.com/in/lucasteccanella">
     <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555">
