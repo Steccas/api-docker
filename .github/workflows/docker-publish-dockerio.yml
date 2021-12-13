@@ -12,8 +12,8 @@ on:
       - 'v*'
   schedule:
     - cron: '39 15 * * *'
-    tags:
-      - 'v*'
+      tags:
+        - 'v*'
   workflow_dispatch:
     tags:
       - 'v*'
