@@ -12,6 +12,31 @@ I made it to simplify my personal deployment and fit my personal needs.
 - Removed caddy, so you can integrate the containers with an existing proxy like Traefik or Jwilder's proxy.
 - ARM Support
 
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create.
+
+And this project can be greatly improved!
+
+Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+You can also consider to help with a donation ❤️
+<br>
+
+<a href="https://github.com/sponsors/Steccas" target="_blank">
+    <img src="https://img.shields.io/badge/sponsor-%23F5F5F5.svg?&style=for-the-badge&logo=github&logoColor=pink" alt="GitHub Sponsor">
+</a>
+<a href="https://www.buymeacoffee.com/steccas" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/lato-yellow.png" alt="Buy Me A Coffee" height="27.8">
+</a>
+
 ## Running a production-ready service
 
   1. Clone the [this repo](https://github.com/Steccas/api-docker):
